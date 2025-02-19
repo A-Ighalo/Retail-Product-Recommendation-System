@@ -1,8 +1,52 @@
 # Data-Science-Projects
 
-### 1. Semantic Clustering for Product Recommendation using MiniLM & Spark
-This project builds a scalable recommendation system using sentence embeddings, PCA, and KMeans clustering in PySpark. It leverages the all-MiniLM-L6-v2 transformer to generate semantic embeddings for product descriptions, then applies PCA for dimensionality reduction and KMeans to cluster similar products. The system enables efficient content-based recommendations by retrieving items from the same cluster.
-### Technologies Used: PySpark, Sentence Transformers, KMeans, PCA
+## Semantic Product Recommendation Engine
+## Problem Statement
+E-commerce platforms face challenges in providing personalized product recommendations when user interaction data is limited or unavailable (cold start problem). Traditional collaborative filtering methods struggle in such scenarios, especially for new products or users. There's a need for a content-based recommendation system that can:
+
+# Scale efficiently for large product catalogs
+Understand semantic similarities between products
+Provide relevant recommendations without relying on user interaction history
+Process and cluster products in real-time
+
+## Solution
+A scalable semantic clustering system that leverages natural language understanding to generate product recommendations. The system:
+
+#Generates dense vector embeddings from product descriptions using the all-MiniLM-L6-v2 transformer model
+Applies PCA for dimensionality reduction while preserving semantic relationships
+Utilizes KMeans clustering to group similar products based on their semantic features
+Enables fast retrieval of similar products by searching within relevant clusters
+Scales horizontally using Apache Spark for distributed processing
+
+# Key Features:
+
+Content-based filtering that doesn't require user interaction history
+Semantic understanding of product descriptions
+Distributed processing for large-scale catalogs
+Low-latency recommendation retrieval
+Dimensionality reduction for efficient storage and processing
+
+## Technologies
+## Core Components
+
+Apache Spark (PySpark): Distributed computing framework for large-scale data processing
+Sentence Transformers (MiniLM): State-of-the-art transformer model for generating semantic embeddings
+scikit-learn: For PCA implementation and KMeans clustering
+
+# Key Libraries & Tools
+
+all-MiniLM-L6-v2: Efficient transformer model for semantic text embeddings
+PySpark ML: Distributed machine learning operations
+NumPy: Numerical computing and array operations
+Pandas: Data manipulation and analysis
+
+# Infrastructure
+
+Distributed computing environment for Spark
+GPU support for transformer model inference (optional)
+Vector storage for embeddings
+
+Would you like me to expand on any particular section or add more details about specific technical implementations?
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
