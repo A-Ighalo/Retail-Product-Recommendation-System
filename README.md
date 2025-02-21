@@ -41,3 +41,7 @@ A scalable semantic clustering system that leverages natural language understand
     c. Vector storage for embeddings
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
+
+
+# 2.   Book Recommender System
+
