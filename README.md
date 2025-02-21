@@ -1,4 +1,4 @@
-# Semantic Product Recommendation Engine
+# 1. Semantic Product Recommendation Engine
 ### Problem Statement
 E-commerce platforms face challenges in providing personalized product recommendations when user interaction data is limited or unavailable (cold start problem). Traditional collaborative filtering methods struggle in such scenarios, especially for new products or users. There's a need for a content-based recommendation system that can:
 
