@@ -24,7 +24,6 @@ A scalable semantic clustering system that leverages natural language understand
 * Dimensionality reduction for efficient storage and processing
 
 ###  Technologies
-###  Core Components
 * Apache Spark (PySpark): Distributed computing framework for large-scale data processing
 * Sentence Transformers (MiniLM): State-of-the-art transformer model for generating semantic embeddings
 * scikit-learn: For PCA implementation and KMeans clustering
