@@ -38,6 +38,8 @@ A scalable semantic clustering system that leverages natural language understand
 * Distributed computing environment for Spark
 * GPU support for transformer model inference (optional)
 * Vector storage for embeddings
+
+Source Derived from : https://www.coursera.org/account/accomplishments/records/7SSV4Q6K5LAM
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
